@@ -2,7 +2,7 @@
   "name": "my-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://suger13.github.io",
+  "homepage": "https://suger13.github.io/",
   "dependencies": {
     "@chakra-ui/react": "^2.3.4",
     "@emotion/react": "^11.10.4",

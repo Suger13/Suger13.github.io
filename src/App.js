@@ -21,7 +21,7 @@ const star = require('./src-image/icon/middle-section/group-242.png')
 function App() {
 
   const getData = async () => {
-    const data = await axios.get('/http://localhost:4015/')
+    const data = await axios.get('http://localhost:4015/')
 
   } 
 
