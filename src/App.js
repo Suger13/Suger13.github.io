@@ -7,6 +7,9 @@ import RightIntroduce from "./components/RightIntroduce";
 import MiddleSection, { DetailBox } from "./components/MiddleSection";
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import { useEffect } from 'react';
+import axios from 'axios'
+
 
 
 const communicative = require("./src-image/icon/middle-section/group.png");
@@ -16,6 +19,18 @@ const star = require('./src-image/icon/middle-section/group-242.png')
 
 
 function App() {
+
+  const getData = async () => {
+    const data = await axios.get('/http://localhost:4015/')
+
+  } 
+
+  useEffect(() =>{
+    getData()
+  },[])
+
+
+
   return (
     
     <div className="App">
